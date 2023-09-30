@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="components/Linkedin.js" defer></script>
+  <script src="components/Github.js" defer></script>
+  <script src="components/Button.js" defer></script>
+  <script src="components/Footer.js" defer></script>
+  <title>Web Components Test</title>
+</head>
+<body>
+  <h1>Web Components Test</h1>
+
+  <div class="redes">
+    <linkedin-component title="My Linkedin" link-url="https://www.linkedin.com/in/rafaelly-lemos/" target="_blank"></linkedin-component>
+    <github-component title="My Github" link-url="https://www.github.con/rafaellylemos" target="_blank"></github-component>
+  </div>
+
+  <button-component conteudo="Test Button"></button-component>
+
+  <footer-component author="Rafaelly Lemos&copy;2023" name="Bootcamp Santader FullStack"></footer-component>
+</body>
+</html>
